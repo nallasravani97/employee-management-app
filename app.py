@@ -1,13 +1,5 @@
-print("Employee Management App")
+def view_employees():
+    for employee in employees:
+        print(employee)
 
-employees = []
-
-def add_employee(name, employee_id):
-    employees.append({
-        "id": employee_id,
-        "name": name
-    })
-
-add_employee("Rahul", 101)
-
-print(employees)
+view_employees()
