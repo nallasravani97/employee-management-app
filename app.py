@@ -1,5 +1,4 @@
-def view_employees():
+def search_employee(name):
     for employee in employees:
-        print(employee)
-
-view_employees()
+        if employee["name"].lower() == name.lower():
+            return employee
