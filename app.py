@@ -1,1 +1,4 @@
-print("Employee Management App")
+def update_employee(employee_id, new_name):
+    for employee in employees:
+        if employee["id"] == employee_id:
+            employee["name"] = new_name
