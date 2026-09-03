@@ -7,3 +7,5 @@ def search_employee(name):
         if employee["name"].lower() == name.lower():
             return employee
         print("employee name")
+def employee_count(employees):
+    return len(employees)
